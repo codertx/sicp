@@ -15,6 +15,4 @@
     (<  (abs (- (square possibleValue) target)) 0.001))
 
 (define (sqrt target)
-    (if (< 1 target)
-        (sqrt-iter target 0.00001)
-        (sqrt-iter target 1)))
+    (sqrt-iter target 1.0))
