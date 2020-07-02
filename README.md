@@ -1,15 +1,9 @@
 ## Usage
 
-You need to install [Gambit Scheme](http://gambitscheme.org/wiki/index.php/Main_Page) on your computer first.
+This repository contain some solutions of sicp. The solutions are mostly written in Racket. You need to install [Racket](https://racket-lang.org/) before you excute source file.
 
-Then you can execute any scheme source file.
-
-```
-gsi scheme_source.scm
-```
-
-You can execute source file in interactive mode with `-` option
+After installing the Racket.
 
 ```
-gsi scheme_source.scm -
+racket scheme_source.rkt
 ```
