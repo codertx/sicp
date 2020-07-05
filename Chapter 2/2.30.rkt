@@ -1,3 +1,5 @@
+#lang racket
+
 (define (square-tree tree)
     (cond ((null? tree) (list))
           ((not (pair? tree)) (square tree))
